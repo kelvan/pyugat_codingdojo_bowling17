@@ -1,0 +1,7 @@
+ipython
+flake8
+pytest
+pytest-watch
+sniffer
+tox
+pylint
