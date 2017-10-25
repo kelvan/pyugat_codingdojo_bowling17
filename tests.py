@@ -49,7 +49,7 @@ def test_all_misses():
     assert score('-- -- -- -- -- -- -- -- -- --') == 0
 
 
-def test_all_misses():
+def test_most_misses():
     assert score('-- -- -- -- -/ 11 -- -- -- --') == 13
 
 
