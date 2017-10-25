@@ -44,6 +44,7 @@ def score(game):
 
     game_score = 0
 
+    # we assume 10 regular frames (+correct amount of bonus frames) per game
     for i in range(10):
         score, steps = frame_score(frames[i])
         # add frame score plus points of next "steps" throws
