@@ -46,5 +46,6 @@ def score(game):
 
     for i in range(10):
         score, steps = frame_score(frames[i])
+        # add frame score plus points of next "steps" throws
         game_score += score + frame_score(get_next_throws(frames, i, steps))[0]
     return game_score
